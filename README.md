@@ -7,12 +7,12 @@ sudo apt update && apt install neovim
 ## Configure Neovim
 To create the configuration file of Neovim, you have to go to the ~/.config folder and create the 
 ```
-if [ -d "~/Documents/nvim" ]; then
-  cd ~/Documents
+if [ -d "~/.config/nvim" ]; then
+  cd ~/.config
   rm -rf nvim
 fi
-git clone https://github.com/Md-Mahir-Asef/Vim-Neovim-configurations.git ~/Documents/nvim
-cd ~/Documents/nvim
+git clone https://github.com/Md-Mahir-Asef/Vim-Neovim-configurations.git ~/.config/nvim
+cd ~/.config/nvim
 rm README.md
 cd ~
 ```
