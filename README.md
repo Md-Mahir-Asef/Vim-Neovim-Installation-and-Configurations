@@ -12,5 +12,6 @@ if [ -d "~/Documents/nvim" ]; then
   rm -rf nvim
 fi
 git clone https://github.com/Md-Mahir-Asef/Vim-Neovim-configurations.git ~/Documents/nvim
+cd ~/Documents/nvim
 rm README.md
 ```
