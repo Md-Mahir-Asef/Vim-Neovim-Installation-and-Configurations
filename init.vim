@@ -10,8 +10,9 @@ Plug 'https://github.com/ryanoasis/vim-devicons' " Responsible for icons
 Plug 'https://github.com/ncm2/ncm2' " Responsible for autocompletion (Specially in python)
 call plug#end()
 
-:nmap <C-x> :wq<CR> " Saves and closes the editor when clicked Ctrl + x
-:nmap <C-s> :w<CR> " Saves the editor when clicked Ctrl + s
+:nnoremap <C-x> :wq<CR> " Saves and closes the editor when clicked Ctrl + x
+:nnoremap <C-s> :w<CR> " Saves the editor when clicked Ctrl + s
+:nnoremap 9 $<> " Moves the cursor to the end of the line when clicked 9
 :set encoding=UTF-8
 
 let g:NERDTreeDirArrowExpandable="+"
