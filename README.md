@@ -1,4 +1,4 @@
-# Vim or Neovim Configurations
+# Vim or Neovim Installation and Configurations
 ## Neovim installation
 To install Neovim on you kali linux or other debian based linux machines run the following command.
 ```bash
