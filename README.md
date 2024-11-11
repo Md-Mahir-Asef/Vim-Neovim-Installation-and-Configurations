@@ -2,7 +2,8 @@
 ## Neovim installation
 To install Neovim on you kali linux or other debian based linux machines run the following command.
 ```bash
-sudo apt update && apt install neovim
+sudo apt update
+sudo apt install neovim
 ```
 ## Configure Neovim
 To create the configuration file of Neovim, you have to go to the ~/.config folder and create the nvim file and clone the init.vim file of this repository into it. This task can be automated by only coping the following command and execution it on your kali linux or other debian based linux machines.
